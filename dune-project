@@ -5,11 +5,11 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github Sckathach/formal_calculus))
 
-(authors "Author Name")
+(authors "Sckathach")
 
-(maintainers "Maintainer Name")
+(maintainers "?")
 
 (license LICENSE)
 
@@ -17,8 +17,8 @@
 
 (package
  (name camelries)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "Developemment project for PRO3600 course")
+ (description "Implementation of a formal calculator in OCaml/Java")
  (depends ocaml dune)
  (tags
   (topics "to describe" your project)))
